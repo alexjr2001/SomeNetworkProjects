@@ -22,10 +22,34 @@ As we use files such as socket.h from sys library we must prefer a Linux environ
 </p>
 
 ### Actions-Chat
-This mini-project is a simulation of a chat where you can sign-up and talk or send files with other users. 
+This mini-project is a simulation of a chat where you can sign-up and talk or send files with other users. It is really simple to use if you already understood the previous and more complex project. You just press "M" to send messages, and "F" to send files in your directory, besides, you can ask the list of connected users.
 
+## Compilation and Execution
+Three terminals needed. 
 
+Firstly, the server terminal:
+- N-TicTacToe
+```
+g++ serverV2.cpp -o s.exe
+./s.exe
+```
+- Actions
+```
+g++ server.cpp -o s.exe
+./s.exe
+```
 
+And secondly the players' terminals:
+- N-TicTacToe
+```
+g++ playerV2.cpp -o p.exe
+./p.exe
+```
+- Actions
+```
+g++ client.cpp -o c.exe
+./c.exe
+```
 
 ## Used libraries
 ```
